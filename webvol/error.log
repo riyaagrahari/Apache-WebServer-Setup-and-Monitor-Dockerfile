@@ -1,0 +1,21 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 15 15:49:08.753467 2020] [mpm_event:notice] [pid 14:tid 140367165475776] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 15 15:49:08.755651 2020] [core:notice] [pid 14:tid 140367165475776] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 15 15:51:20.757018 2020] [mpm_event:notice] [pid 15:tid 139655026195392] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 15 15:51:20.757650 2020] [core:notice] [pid 15:tid 139655026195392] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 15 15:52:18.212932 2020] [core:warn] [pid 8:tid 140456690039744] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 15 15:52:18.216347 2020] [mpm_event:notice] [pid 8:tid 140456690039744] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 15 15:52:18.218234 2020] [core:notice] [pid 8:tid 140456690039744] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 15 15:52:28.054960 2020] [core:warn] [pid 8:tid 140267040705472] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 15 15:52:28.056931 2020] [mpm_event:notice] [pid 8:tid 140267040705472] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 15 15:52:28.058806 2020] [core:notice] [pid 8:tid 140267040705472] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 15 16:09:17.096030 2020] [mpm_event:notice] [pid 14:tid 140378938477504] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 15 16:09:17.096947 2020] [core:notice] [pid 14:tid 140378938477504] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 16 15:16:36.058537 2020] [core:warn] [pid 7:tid 140416135535552] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 16 15:16:36.060458 2020] [mpm_event:notice] [pid 7:tid 140416135535552] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon Mar 16 15:16:36.061809 2020] [core:notice] [pid 7:tid 140416135535552] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

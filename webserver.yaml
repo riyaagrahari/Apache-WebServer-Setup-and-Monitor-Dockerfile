@@ -1,0 +1,31 @@
+version: '3'
+services:
+  web:
+    image: apache
+    build: 
+      context: ./web-server
+      dockerfile: Dockerfile.wb
+    container_name: apache_container
+    restart: always
+    ports:
+      - "8080:80"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: '1m'
+      timeout: '10s'
+      retries: '3'
+    volumes: 
+      - ./webvol:/var/log/apache2/
+
+  
+  logger:
+    build:
+      context: ./web-server
+      dockerfile: Dockerfile.log
+    container_name: Traffic-logger
+    volumes:
+      - ./webvol:/var/log/apache2/
+    depends_on:
+      - web
+volumes:
+  webvol: {}
